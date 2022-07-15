@@ -1,0 +1,21 @@
+li:hover{
+    color: cyan;
+    text-decoration: line-through;
+    cursor: pointer;
+}
+body{
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+div{
+    width: 300px;
+    height: 100%;
+    background-color: white;
+    opacity: 0.7;
+    border-radius: 30px;
+    padding: 20px;
+}
